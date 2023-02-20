@@ -6,6 +6,11 @@ class CreateHouses < ActiveRecord::Migration[7.0]
       t.string :name
       t.decimal :price
       t.text :description
+      t.integer :guests
+      t.integer :bedrooms
+      t.integer :beds
+      t.integer :bath
+      t.boolean :pets_allowed
       t.string :country
       t.string :city
       t.text :address
