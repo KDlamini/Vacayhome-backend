@@ -57,3 +57,5 @@ group :production do
   gem 'rspec'
   gem 'rswag'
 end
+
+gem "dockerfile-rails", ">= 1.1", :group => :development
